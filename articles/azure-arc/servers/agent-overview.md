@@ -175,6 +175,8 @@ After installing the Connected Machine agent for Windows, the following addition
     |-------------|-------------|-------------|------------|
     |himds |Azure Hybrid Instance Metadata Service |himds.exe |This service implements the Azure Instance Metadata service (IMDS) to manage the connection to Azure and the connected machine's Azure identity.|
     |DscService |Guest Configuration Service |dsc_service.exe |The Desired State Configuration (DSC v2) codebase used inside Azure to implement In-Guest Policy.|
+    |GCArcService |Guest Configuration Arc Service |gc_service.exe |This service monitors desired state of the machine. |
+    |ExtensionService |Guest Configuration Extension service |gc_service.exe |The service installs the requested extensions. | 
 
 * The following environmental variables are created during agent installation.
 
